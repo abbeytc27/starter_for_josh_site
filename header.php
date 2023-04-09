@@ -38,7 +38,7 @@
 
 </head>
 <body>
-<header class="container-fluid bg1">
+<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
     <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
